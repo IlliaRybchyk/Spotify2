@@ -1,6 +1,6 @@
 from flask import render_template, request, redirect, session
 from app import app
 
-@app.route('/auth')
+@app.route("/")
 def auth():
-    render_template('auth.html')
+    return render_template('auth.html')

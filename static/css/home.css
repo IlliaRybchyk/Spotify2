@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Тёмный фон как у Spotify */
+    color: #FFFFFF; /* Белый текст */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Стили заголовка и параграфа */
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+/* Стили кнопок */
+a.btn {
+    display: inline-block;
+    margin: 0 1em;
+    padding: 0.75em 1.5em;
+    background-color: #FFFFFF; /* Белая кнопка */
+    color: #121212; /* Тёмный текст */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a.btn:hover {
+    background-color: #1DB954; /* Spotify зелёный */
+    color: #FFFFFF;
+}

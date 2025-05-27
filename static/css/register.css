@@ -1,0 +1,59 @@
+.register-container {
+    text-align: center;
+    max-width: 400px;
+    padding: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+label {
+    text-align: left;
+    font-size: 0.9em;
+    margin-bottom: 0.2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 0.6em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button[type="submit"] {
+    padding: 0.75em;
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #1ed760;
+}
+
+.register-container a {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+.register-container a:hover {
+    text-decoration: underline;
+}

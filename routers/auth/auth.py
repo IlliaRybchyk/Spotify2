@@ -1,5 +1,6 @@
 from flask import render_template, request, redirect, session
 from app import app
+from data.scripts.user_db import UserInfo
 
 @app.route('/')
 def auth():

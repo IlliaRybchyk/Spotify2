@@ -1,6 +1,4 @@
 body {
-    margin: 0;
-    padding: 0;
     background-color: #121212; /* Тёмный фон как у Spotify */
     color: #FFFFFF; /* Белый текст */
     font-family: 'Arial', sans-serif;
@@ -26,7 +24,7 @@ p {
 /* Стили кнопок */
 a.btn {
     display: inline-block;
-    margin: 0 1em;
+    margin: 5px;
     padding: 0.75em 1.5em;
     background-color: #FFFFFF; /* Белая кнопка */
     color: #121212; /* Тёмный текст */
